@@ -1,0 +1,465 @@
+.dropdown-menu{
+    min-width: 70rem;
+    width:100%;
+    overflow: hidden;
+}
+nav {
+    position: absolute;
+    z-index: 200;
+    
+}
+.links {
+    color:#ffffff;
+    text-decoration: none;
+}
+.links:hover{
+    color:#ff0000;
+    text-decoration: none;
+
+}
+.header{
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.pio{
+    font-size: 60px;
+}
+.headerimg{
+    position: relative;
+    height:400px;
+    overflow: hidden;
+}
+.headerimg img {
+    position: absolute;;
+    width:60%;
+    left:25%
+}
+.display{
+    width:0;
+    height: 0;
+    opacity: 0;
+}
+.selectreview {
+    position: relative;
+    background:#000;
+    overflow: hidden;
+    cursor: pointer;
+}
+.selectreview img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    opacity: .1;
+}
+
+.selectbox div.col-md-3.col-sm-6.col-xs-6{
+    padding: 0;
+}
+.welcome{
+    position: relative;
+    padding:20%;
+} 
+.welcome h2 {
+    display:grid;
+    margin: auto;
+    font-size: 25px;
+    padding: 20px;
+    width:400px;
+    color:rgb(105, 105, 105);
+    word-spacing: 3px;
+    line-height: 40px;
+}
+.welcome  .svg-inline--fa{
+    font-size: 70px;
+}
+.websites{
+    width:100%;
+    height:100%;
+    position: relative;
+    overflow: hidden;
+}
+.websites img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    top:0;
+    left:0;
+}
+.websites .webtext{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    overflow: hidden;
+    transition: .7s;
+
+}
+.websites .webtext:hover {
+    background-image: linear-gradient(to top , rgba(0, 0, 0, 0.637) , #ffffff65);
+
+}
+.websites .webtext:hover h1{
+    transform: translateY(0px);
+}
+.websites .webtext:hover h4{
+    transform: translateY(0px);
+}
+.websites .webtext h1:hover {
+    cursor: pointer;
+    color:#E10032
+}
+.websites .webtext h4:hover{
+    cursor: pointer;
+    color:#E10032
+} 
+.websites .webtext h1{
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50px);
+    transition: .1s;
+    color:#fff
+}
+.websites .webtext h4{
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50px);
+    transition: .1s;
+    color:#fff
+}
+
+
+
+
+
+
+
+
+.slider .slideimg{
+    position: relative;
+    width: 100%;
+    height:600px;
+    background: #000;
+    overflow: hidden;
+}
+.slider .slideimg svg{
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 1;
+    z-index: 2;
+}
+.slider .slideimg h3{
+    position: relative;
+    z-index: 3;
+    margin-top:10%;
+    margin-left: 30px;
+    font-size: 40px;
+}
+.slider .slideimg h3 h1{
+    display: inline;
+    font-size: 60px;
+    z-index: 3;
+}
+
+.slider .slideimg img{
+    position: absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover ;
+    opacity: .5;
+    z-index: 1;
+}
+.slider .controll {
+    position: absolute;
+    right:5%;
+    bottom: 5%;
+    z-index: 5;
+    font-size: 30px;
+    color:#fff
+}
+.slider .controll .prev {
+    margin-right: 50px;
+    cursor: pointer;
+}
+.slider .controll .next {
+    cursor: pointer;
+}
+.slider .fadeing{
+    animation-name: fade;
+    animation-duration: .2s;
+}
+@keyframes fade {
+    from{opacity: .5;
+    }
+    to{opacity: 1;
+    }
+}
+
+.controllsm {
+    position: absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    height:100vh;
+    background:none;
+    z-index: 1;
+}
+
+.controllsm .prev {
+    position: absolute;
+    width:80px;
+    height:100%;
+    left:0;
+    background: #f2f2f2;
+    opacity: 0;
+    transition: .5s;
+    padding-top: 50%;
+    color:red
+}
+
+.controllsm .prev:hover{
+    opacity: .5;
+}
+.controllsm .next {
+    position: absolute;
+    width:80px;
+    height:100%;
+    right:0;
+    background: #f2f2f2;
+    opacity: 0;
+    transition: .5s;
+    padding-top: 50%;
+    color:red;
+}
+.controllsm .next:hover{
+    opacity: .5;
+}
+.footer{
+    position: relative;
+    width:100%;
+    overflow: hidden;
+}
+.footer a{
+    position: relative;
+    color:#ff0000;
+}
+.footer a:hover{
+    color: #fff;
+}
+.footer .styling{
+    position: absolute;
+    width:10%;
+    height:3000px;
+    top:0;
+    left:0;
+    background: rgba(255, 0, 0, 0.568);
+    transform: skew(10deg);
+    opacity: 0;
+    transition: .5s;
+}
+.findcar{
+    position: relative;
+    top:0;
+    left:0;
+}
+.hight1{
+    height:500px;
+}
+.hight2{
+    height:250px;
+}
+.leader{
+    position: relative;
+    width:100%;
+    background: black;
+    overflow: hidden;
+}
+.findcar .leader .img{
+position: absolute;
+width: 100%;
+height: 100%;
+object-fit: cover;
+top: 0;
+left: 0;
+z-index: 1;
+opacity: 1;
+transition: .5s;
+}
+.leader .leadertext{
+    position: absolute;
+    z-index: 2;
+    width:100%;
+    height:100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    transition: .5s;
+    background: #0000007c;
+}
+.leader:hover .img{
+    filter: blur(2px);
+    opacity: .5;
+}
+.leader:hover .leadertext{
+    opacity: 1;
+    cursor: pointer;
+
+}
+.leader .leadertext h3{
+    font-size: 2rem;
+}
+.leader .leadertext h5{
+    font-size: 1rem;
+}
+.leader .fontsizesmall1{
+    font-size: .4rem;
+}
+.leader .fontsizesmall2{
+    font-size: .9rem;
+}
+ .black{
+    background: black;
+}
+.RentCar{
+    position: relative;
+    top:0;
+    left:0;
+}
+
+.RentCar .Renter{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    background: black;
+    overflow: hidden;
+}
+.RentCar .Renter img{
+    position: absolute;
+    top:0px;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    opacity: .7;
+    filter: brightness(1);
+    transition: .3s;
+}
+.RentCar .Renter .Rentertext{
+    background: rgba(235, 13, 13, 0.774);
+    transition: .3s ease-in;
+    opacity: 0;
+}
+.RentCar .Renter:hover img{
+    opacity: .9;
+    filter: brightness(.5);
+}
+.RentCar .Renter:hover .Rentertext{
+    opacity: 1;
+}
+.RentCar .owl-carousel .Renter .Rentertext{
+    opacity: 1;
+    background: rgba(62, 0, 233, 0.829);
+    transform: translateY(500px);
+    height:100vh;
+}
+.RentCar .owl-carousel .Renter:hover .Rentertext{
+    transform: translateY(0px);
+}
+.Dealer{
+    position: relative;
+    top:0;
+    left: 0;
+}
+.Dealer .Deal {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    top:0;
+    left:0;
+    overflow: hidden;
+    padding: 0;
+}
+.Dealer .Deal .img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-image: url(./component/pic/machnicshoppage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -400px;
+    background-attachment: fixed;
+    filter: blur(7px);
+    z-index: 1;
+}
+.Dealer .Deal .headertext{
+    position: relative;
+    top:0;
+    left:0;
+    background: rgba(235, 13, 13, 0.644);
+    z-index: 2;
+    width:100%;
+    height:100%;
+    padding: 10% 10% 10% 10%;
+}
+
+.Dealer .Deal .headertext h1{
+    font-size: 90px;
+}
+.Dealer .Deal .headertext h6{
+    font-size: 20px;
+}
+.Dealer .Dealing {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height:500px;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+.Dealer .Dealing img{
+   width:100%;
+   height:500px;
+   object-fit: cover;
+   margin: 0;
+}
+.Dealer .Dealing .textDeal{
+    padding: 80px;
+    transform: translateY(500px);
+    
+    transition: .5s;
+    margin: 0;
+}
+.Dealer .Dealing:hover .textDeal{
+    transform: translateY(0px);
+
+}
+.Dealer .Dealing .color1{
+    background: #130f40;
+}
+.Dealer .Dealing .color2{
+    background: #f9ca24;
+}
+.Dealer .Dealing .color3{
+    background: #eb4d4b;
+}
+.Dealer .Dealing .color4{
+    background: #0a3d62;
+}
+.Dealer .Dealing .color5{
+    background: #222f3e;
+}
+.Dealer .Dealing .color6{
+    background: #00d2d3;
+}
+
